@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import{useEffect, useState}from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const url= "https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=Arsenal"
+
 
 export default function App() {
   const [country,setStrCountry]=useState('')
